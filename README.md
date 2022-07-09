@@ -16,20 +16,20 @@ Pode ser feito com o comando
 docker run --name mqdemo --env LICENSE=accept --env MQ_QMGR_NAME=QM1 --env MQ_ENABLE_METRICS=true --env MQ_ENABLE_EMBEDDED_WEB_SERVER=true --env MQ_ADMIN_PASSWORD=passw0rd --env MQ_APP_PASSWORD=passw0rd --volume qm1data:/mnt/mqm --publish 1414:1414 --publish 9009:9443 --publish 9157:9157 --detach ibmcom/mq
 
 # Alterar o arquivo gmequer.properties
-hostName=127.0.0.1
-hostPort=1414
-channelName=DEV.APP.SVRCONN
-queueManagerName=QM1
-queueName=DEV.QUEUE.1
-userName=app
-userPassword=passw0rd
-messageSizing=100
-messagePattern=helloworld
-numThreadsSender=50
-numThreadsReceiver=50
-sleepTime=1
-persistent=false
-statisticTime=5
+1. hostName=127.0.0.1
+2. hostPort=1414
+3. channelName=DEV.APP.SVRCONN
+4. queueManagerName=QM1
+5. queueName=DEV.QUEUE.1
+6. userName=app
+7. userPassword=passw0rd
+8. messageSizing=100
+9. messagePattern=helloworld
+10. numThreadsSender=50
+11. numThreadsReceiver=50
+12. sleepTime=1
+13. persistent=false
+14. statisticTime=5
 
 # Opções :
 hostName, hostPort, channelName, queueManager, queueName, userName e userPassword são as opções do MQ (o comando acima já cria com estas opções)
