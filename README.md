@@ -42,25 +42,25 @@ Pode ser feito com o comando
 8. statisticTime - Tempo em segundos para apresentar as estatísticas 
 
 # como executar
-## entrar no diretório em que baixou os arquivos e digitar 
-## ./gmequer.sh - linux
-## gmequer.batt - Windows
+entrar no diretório em que baixou os arquivos e digitar </br>
+./gmequer.sh - linux </br>
+gmequer.batt - Windows </br>
 
 # após executar serão impressos dados básicos 
-### GMEQUER 1.0
-### hostName 127.0.0.1
-### hostPort 1414
-### channelName DEV.APP.SVRCONN
-### queueManagerName QM1
-### queueName DEV.QUEUE.1
-### userName app
-### userPassword passw0rd
-### messageSizing 100
-### pattern helloworld
-### sleepTime 1
-### persistent false
-### numThreadsReceiver 50
-### numThreadsSender 50
+<li> GMEQUER 1.0 </li>
+<li> hostName 127.0.0.1</li>
+<li> hostPort 1414</li>
+<li> channelName DEV.APP.SVRCONN</li>
+<li> queueManagerName QM1</li>
+<li> queueName DEV.QUEUE.1</li>
+<li> userName app</li>
+<li> userPassword passw0rd</li>
+<li> messageSizing 100</li>
+<li> pattern helloworld</li>
+<li> sleepTime 1</li>
+<li> persistent false</li>
+<li> numThreadsReceiver 50</li>
+<li> numThreadsSender 50</li>
 
 # Aguarde um tempo até conectar com o servidor, e ecomeçarão a ser apresentadas mensagens como : 
 ### --------------------------------
