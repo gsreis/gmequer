@@ -63,28 +63,30 @@ gmequer.batt - Windows </br>
 <li> numThreadsSender 50</li>
 
 # Aguarde um tempo até conectar com o servidor, e ecomeçarão a ser apresentadas mensagens como : 
-### --------------------------------
-### |PAC Enviados   |PAC Recebidos  |
-### |10038          |10034          |
-### |-------------------------------|
-### |TPS Send       |TPS Receive    |
-### |-------------------------------|
-### |2007           |2006           |
-### --------------------------------
-### |Errors   0     |
-### |-------------------------------|
+
+--------------------------------</br>
+|PAC Enviados   |PAC Recebidos  |</br>
+|10038          |10034          |</br>
+|-------------------------------|</br>
+|TPS Send       |TPS Receive    |</br>
+|-------------------------------|</br>
+|2007           |2006           |</br>
+--------------------------------</br>
+|Errors   0     |</br>
+|-------------------------------|</br>
+
 ### São apresenttados os pacottes enviados e recebidos (numero), número de TPS (transações por segundo) no envio e na recepção e numero de erros
-(https://github.com/gsreis/gmequer/blob/main/tela.png)
+!(https://github.com/gsreis/gmequer/blob/main/tela.png)
 
 # comandos permitidos 
-# exit - sai do programa (precisa aguardar as threads terminarem)
-# error - descarrega na tela todos os erros acumulados até o momento
-# stats - apresenta a configuração criada na conexão 
+<li>exit - sai do programa (precisa aguardar as threads terminarem)</li>
+<li>error - descarrega na tela todos os erros acumulados até o momento</li>
+<li>stats - apresenta a configuração criada na conexão </li>
 
 # Observações 
-Você pode configurar o MQ apenas para enviar ou apenas para consumir, basta colocar 0 em numThreadsSender ou numThreadsReceiver
-Apos digitar a o docker run acima. um console do MQ será aberto na url GitHub Pages](https://localhost:9009/)
+<li>Você pode configurar o MQ apenas para enviar ou apenas para consumir, basta colocar 0 em numThreadsSender ou numThreadsReceiver</li>
+<li>Apos digitar a o docker run acima. um console do MQ será aberto na url GitHub Pages](https://localhost:9009/)</li>
 
-(https://github.com/gsreis/gmequer/blob/main/console.png)
+!(https://github.com/gsreis/gmequer/blob/main/console.png)
 
 
