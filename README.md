@@ -48,14 +48,15 @@ Pode ser feito com o comando </br>
 14. statisticTime=5
 
 # Opções :
-1. hostName, hostPort, channelName, queueManager, queueName, userName e userPassword são as opções do MQ (o comando acima já cria com estas opções)
-2. messageSizing - tamanho da mensagem - ela será criada concatenando suscessivamente o parametro messagePattern abaixo
-3. messagePattern - usado para criar a mensagem
-4. numThreadsSender - numero de threads para envio
-5. numThreadsReceiver - numero de threads para recepção
-6. sleepTime - tempo em milissegundos que o programa dorme antes de enviar ou ler outra mensagem
-7. persistent - true se a mensagem é persistente ou false se não persistente
-8. statisticTime - Tempo em segundos para apresentar as estatísticas 
+1. hostName, hostPort, channelName, queueManager, queueName, userName e userPassword são as configurações do MQ 
+2. (o comando acima já cria com estas opções, ou seja, se criar o MQ com o comando e rodar este arquivo sem alterar nada deve funcionar)
+3. messageSizing - tamanho da mensagem - ela será criada concatenando suscessivamente o parametro messagePattern abaixo
+4. messagePattern - usado para criar a mensagem
+5. numThreadsSender - numero de threads para envio
+6. numThreadsReceiver - numero de threads para recepção
+7. sleepTime - tempo em milissegundos que o programa dorme antes de enviar ou ler outra mensagem
+8. persistent - true se a mensagem é persistente ou false se não persistente
+9. statisticTime - Tempo em segundos para apresentar as estatísticas 
 
 # como executar
 entrar no diretório em que baixou os arquivos e digitar </br>
