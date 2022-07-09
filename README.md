@@ -1,5 +1,8 @@
 # gmequer
-Aplicativo para testar o MQSeries em ambientes de forma fácil 
+## Aplicativo para testar o MQSeries em ambientes de forma simplificada. 
+## Ele permite esttressar e verificar limites de velocidade do IBM MQ
+## Foi criado por chegar a um limite de throughput inttrasponível no JMETER
+
 
 # Como executar 
 Baixar os arquivos 
