@@ -75,8 +75,8 @@ gmequer.batt - Windows </br>
 |Errors   0     |</br>
 |-------------------------------|</br>
 
-### São apresenttados os pacottes enviados e recebidos (numero), número de TPS (transações por segundo) no envio e na recepção e numero de erros
-!(tela.png)
+### São apresentados os pacotes enviados e recebidos (numero), número de TPS (transações por segundo) no envio e na recepção e numero de erros
+![](tela.png)
 
 # comandos permitidos 
 <li>exit - sai do programa (precisa aguardar as threads terminarem)</li>
@@ -87,6 +87,6 @@ gmequer.batt - Windows </br>
 <li>Você pode configurar o MQ apenas para enviar ou apenas para consumir, basta colocar 0 em numThreadsSender ou numThreadsReceiver</li>
 <li>Apos digitar a o docker run acima. um console do MQ será aberto na url GitHub Pages](https://localhost:9009/)</li>
 
-!(console.png)
+![](console.png)
 
 
