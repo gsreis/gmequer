@@ -47,7 +47,7 @@ Pode ser feito com o comando </br>
 # como executar
 entrar no diretório em que baixou os arquivos e digitar </br>
 ./gmequer.sh - linux </br>
-gmequer.batt - Windows </br>
+gmequer.bat - Windows </br>
 
 # após executar serão impressos dados básicos 
 <li> GMEQUER 1.0 </li>
