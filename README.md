@@ -112,4 +112,8 @@ gmequer.bat - Windows </br>
 ## app - passw0rd (conexão do programa)
 
 
+# Códigos
+## para compilar, crie um projeto no seu IDE ou maven, e aponte os JARs acima no classpath do compilador (menos o gmequer.jar)
+
+# Diagrama de classes 
 
