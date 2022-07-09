@@ -88,7 +88,8 @@ gmequer.bat - Windows </br>
 
 # Observações 
 <li>Você pode configurar o MQ apenas para enviar ou apenas para consumir, basta colocar 0 em numThreadsSender ou numThreadsReceiver</li>
-<li>Apos digitar a o docker run acima. um console do MQ será aberto na url GitHub Pages](https://localhost:9009/)</li>
+<li>Apos digitar a o docker run acima. um console do MQ será aberto na url </li>
+!(https://localhost:9009/)
 
 ![](console.png)
 
