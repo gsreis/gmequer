@@ -116,4 +116,4 @@ gmequer.bat - Windows </br>
 ## para compilar, crie um projeto no seu IDE ou maven, e aponte os JARs acima no classpath do compilador (menos o gmequer.jar)
 
 # Diagrama de classes 
-
+![](classes.png)
