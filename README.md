@@ -94,7 +94,7 @@ gmequer.bat - Windows </br>
 ![](console.png)
 
 # usuarios
-## admin - passw0ord  (administração e console)
+## admin - passw0rd  (administração e console)
 ## app - passw0rd (conexão do programa)
 
 
