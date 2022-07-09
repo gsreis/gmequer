@@ -74,6 +74,7 @@ Pode ser feito com o comando
 ### |Errors   0     |
 ### |-------------------------------|
 ### São apresenttados os pacottes enviados e recebidos (numero), número de TPS (transações por segundo) no envio e na recepção e numero de erros
+(https://github.com/gsreis/gmequer/blob/main/tela.png)
 
 # comandos permitidos 
 # exit - sai do programa (precisa aguardar as threads terminarem)
@@ -84,6 +85,6 @@ Pode ser feito com o comando
 Você pode configurar o MQ apenas para enviar ou apenas para consumir, basta colocar 0 em numThreadsSender ou numThreadsReceiver
 Apos digitar a o docker run acima. um console do MQ será aberto na url GitHub Pages](https://localhost:9009/)
 
-(https://myoctocat.com/assets/images/base-octocat.svg)
+(https://github.com/gsreis/gmequer/blob/main/console.png)
 
 
