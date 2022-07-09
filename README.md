@@ -19,13 +19,16 @@ Pode ser feito com o comando </br>
 
 <li>docker volume qm1data</li>
 <li>docker run --name mqdemo --env LICENSE=accept --env MQ_QMGR_NAME=QM1 --env MQ_ENABLE_METRICS=true --env MQ_ENABLE_EMBEDDED_WEB_SERVER=true --env MQ_ADMIN_PASSWORD=passw0rd --env MQ_APP_PASSWORD=passw0rd --volume qm1data:/mnt/mqm --publish 1414:1414 --publish 9009:9443 --publish 9157:9157 --detach ibmcom/mq</li>
+
 ## este utiliza a imagem aberta de demo do MQ no Docker.hub, e aponta para uma persistência externa (--volume)
 
 ## ou
 
 <li>docker volume qm1data</li>
 <li>docker run --name mqdemo --env LICENSE=accept --env MQ_QMGR_NAME=QM1 --env MQ_ENABLE_METRICS=true --env MQ_ENABLE_EMBEDDED_WEB_SERVER=true --publish 1414:1414 --publish 9009:9443 --publish 9157:9157 --detach icr.io/ibm-messaging/mq</li>
+
 ## este utiliza a imagem IBM oficial, e cria a persistencia dentro do container (se deletar o container irá matar a fila)
+
 ## podem ser experimentadas variações dos dois comandos
 
 # Alterar o arquivo gmequer.properties
