@@ -1,5 +1,5 @@
 # gmequer
-Aplicattivo para testar o MQSeries em ambientes de forma fácil 
+Aplicativo para testar o MQSeries em ambientes de forma fácil 
 
 # Como executar 
 Baixar os arquivos 
